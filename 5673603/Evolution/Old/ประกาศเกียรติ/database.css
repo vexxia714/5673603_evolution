@@ -1,0 +1,114 @@
+* {
+    font-family: "Charm", cursive;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #0a1a4f;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 79%;
+    margin: 11px auto;
+    background: #1b2a6b;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.R1 {     
+      position: absolute;
+      top: 30px;
+      right: 120px;
+      font-weight: bold;
+}
+
+.left {
+      
+      position: absolute;
+      top: 10px;
+      left: 120px;
+      font-weight: bold;
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-box button, .btn-add {
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-add {
+    background: #583488;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background: #3c44b1;
+    color: white;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.form-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.btn-save {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointe
+}

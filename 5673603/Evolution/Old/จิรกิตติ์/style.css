@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e6f2ff;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: #66b3ff;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.container {
+    background: #b3d9ff;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+input[type=text], select {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+button {
+    padding: 8px 15px;
+    background: #0066cc;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004c99;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+table th, table td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: #3399ff;
+    color: white;
+}
+
+.pagination {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 2px;
+    background: #eee;
+    border: 1px solid #666;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a.active {
+    background: #0066cc;
+    color: white;
+    font-weight: bold;
+}
+
+.add-btn {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.add-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.add-btn a:hover {
+    background: #218838;
+}

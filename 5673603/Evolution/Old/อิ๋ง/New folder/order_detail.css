@@ -1,0 +1,134 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+
+/* แบนเนอร์ */
+.banner {
+    background: linear-gradient(to bottom, #a3d5ff, #0000ff);
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    transition: margin-left 0.3s ease;
+}
+
+/* เมนูด้านซ้าย */
+.sidebar {
+    width: 220px;
+    background: linear-gradient(to bottom, #cce5ff, #6666ff);
+    padding: 20px;
+    min-height: 100vh;
+    transition: width 0.3s ease;
+    overflow: hidden;
+}
+
+.sidebar.collapsed {
+    width: 60px;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.sidebar h2,
+.sidebar ul {
+    transition: opacity 0.3s ease;
+}
+
+.sidebar.collapsed h2,
+.sidebar.collapsed ul {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+/* เนื้อหา */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* ช่องค้นหา */
+.search-bar {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+/* กล่องข้อมูลออเดอร์ */
+.order-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.order-info label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.info-box {
+    background: #ddd;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+/* ตารางสินค้า */
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #e6e6e6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.order-table th,
+.order-table td {
+    border: 1px solid #666;
+    text-align: center;
+    padding: 8px;
+}
+
+.order-table th {
+    background: #ccc;
+}
+
+.order-table tfoot td {
+    font-weight: bold;
+    background: #ddd;
+}
