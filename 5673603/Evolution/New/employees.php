@@ -49,6 +49,7 @@ $result = $conn->query($sql);
     <header class="header">
         <div class="logo-section">
             <div class="logo">
+                <img src="logo.png" alt="Logo">
             </div>
             <h1>Classic models</h1>
         </div>
